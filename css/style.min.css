@@ -640,6 +640,15 @@ body.ie ._ibg img {
   text-align: center;
   font-weight: 400;
 }
+
+.subtitle-4 {
+  font-size: calc(0.5vw + 1rem);
+  line-height: 1.5;
+  text-align: center;
+  font-weight: 400;
+  /* margin-bottom: 20px; */
+}
+
 .text {
   font-size: calc(0.12vw + 1rem);
   font-weight: 300;
@@ -1309,6 +1318,39 @@ body.ie ._ibg img {
   -webkit-transition: all 0.5s ease 0s;
   -o-transition: all 0.5s ease 0s;
   transition: all 0.5s ease 0s;
+}
+.clients__corporate {
+  margin: 0px auto 80px;
+}
+.corporate {
+  max-width: 600px;
+  background-color: #f8f4ec;
+  padding: 20px 20px;
+  border-radius: 5px;
+}
+.corporate__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  row-gap: 20px;
+  align-items: center;
+  flex-direction: column-reverse;
+}
+.corporate__logo {
+  flex: 1 0 17%;
+}
+.corporate__image {
+  background-color: #a37a4c;
+  border-radius: 5px;
+  padding: 10px;
+}
+.corporate__text {
+  margin-bottom: 20px;
+}
+.corporate__autor {
+  color: #b74f6f;
+  text-align: right;
+  font-weight: 500;
 }
 .clients__content {
   background-color: #fff;
@@ -3175,6 +3217,9 @@ body.ie ._ibg img {
     font-size: 20px;
     font-weight: 400;
   }
+  .subtitle-4 {
+    margin-bottom: 20px;
+  }
   .text {
     font-size: 14px;
   }
@@ -3208,6 +3253,9 @@ body.ie ._ibg img {
   }
   .services.services-page {
     padding: 120px 0 40px 0;
+  }
+  .corporate {
+    padding: 20px;
   }
   .form-newsletter__button span {
     font-size: 14px;
