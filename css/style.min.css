@@ -2359,7 +2359,7 @@ body.ie ._ibg img {
   background-color: #f8f4ec;
 }
 .articles {
-  padding: 250px 0 50px 0;
+  padding: 200px 0 20px 0;
   background-color: #f8f4ec;
 }
 .articles__body {
@@ -2638,9 +2638,9 @@ body.ie ._ibg img {
 .items-newsletters {
   display: -ms-grid;
   display: grid;
-  grid-template-areas: 'one three' 'two four' 'five five';
+  grid-template-areas: 'one three' 'two four' 'five six';
   -ms-grid-rows: 150px 40px 150px 40px 250px;
-  grid-template-rows: 150px 150px 250px;
+  grid-template-rows: 150px 150px 150px 150px;
   -ms-grid-columns: 1fr 40px 1fr;
   grid-template-columns: 1fr 1fr;
   gap: 40px;
@@ -2683,9 +2683,13 @@ body.ie ._ibg img {
 }
 .items-newsletters__item-april {
   -ms-grid-row: 5;
-  -ms-grid-column: 1;
-  -ms-grid-column-span: 3;
+  -ms-grid-column: 2;
   grid-area: five;
+}
+.items-newsletters__item-q2 {
+  -ms-grid-row: 6;
+  -ms-grid-column: 2;
+  grid-area: six;
 }
 .items-newsletters__img {
   position: absolute;
@@ -3125,7 +3129,7 @@ body.ie ._ibg img {
     flex: 1 1 100%;
   }
   .article-item {
-    padding: 90px 0 60px 0;
+    padding: 90px 0 20px 0;
   }
   .article-item {
     padding: 90px 0 0 0;
