@@ -2742,6 +2742,10 @@ body.ie ._ibg img {
   width: 100%;
   margin: 0 190px;
 }
+.article-item__image-q2 img {
+  width: 100%;
+  margin: 0 190px;
+}
 .newsletters-info__image-fullsize {
   width: 100%;
   padding: 0;
@@ -2756,6 +2760,9 @@ body.ie ._ibg img {
   font-weight: 700;
   color: #a37a4c;
   margin: 10px 0 0 0;
+}
+.newsletters-info__center {
+  text-align: center;
 }
 .newsletters-info__link {
   display: inline-block;
@@ -3356,6 +3363,14 @@ body.ie ._ibg img {
   .newsletters-info__image-fullsize img {
     -o-object-fit: cover;
     object-fit: cover;
+  }
+  .newsletters-info__image-q2 {
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+  }
+  .newsletters-info__image-q2 img {
+    margin: 0;
   }
   ._contant {
     margin: 60px 0 0 0;
